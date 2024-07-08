@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8" />
+    <title>Product Recommendation</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body id="top">
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+      <div id="loader" class="dots-jump">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+      <div class="header-logo">
+        <a class="site-logo" href="index.html"> </a>
+      </div>
+      <!-- end header-logo -->
+
+      <nav class="header-nav">
+        <a href="#0" class="header-nav__close" title="close"
+          ><span>Close</span></a
+        >
+
+        <h3>Navigate to</h3>
+
+        <div class="header-nav__content">
+          <ul class="header-nav__list">
+            <li><a class="smoothscroll" href="#home" title="home">Home</a></li>
+            <li>
+              <a class="smoothscroll" href="#about" title="about">About</a>
+            </li>
+            <li>
+              <a class="smoothscroll" href="#services" title="services"
+                >Jupyter Notebook</a
+              >
+            </li>
+            <li>
+              <a class="smoothscroll" href="#works" title="works"
+                >Project Summarization</a
+              >
+            </li>
+          </ul>
+
+          <p></p>
+        </div>
+        <!-- end header-nav__content -->
+      </nav>
+      <!-- end header-nav -->
+
+      <a class="header-menu-toggle" href="#0">
+        <span class="header-menu-icon"></span>
+      </a>
+    </header>
+    <!-- end s-header -->
+
+    <!-- home
+    ================================================== -->
+    <section
+      id="home"
+      class="s-home page-hero target-section"
+      data-parallax="scroll"
+      data-image-src="images/hero-bg.jpg"
+      data-natural-width="15000"
+      data-natural-height="15000"
+      data-position-y="center"
+    >
+      <div class="grid-overlay">
+        <div></div>
+      </div>
+
+      <div class="home-content">
+        <div class="row home-content__main">
+          <h1>Better Data, Better Decisions</h1>
+
+          <h3></h3>
+        </div>
+        <!-- end home-content__main -->
+
+        <div class="home-content__scroll">
+          <a href="#about" class="scroll-link smoothscroll"> Scroll </a>
+        </div>
+      </div>
+      <!-- end home-content -->
+
+      <!-- <ul class="home-social">
+        <li>
+          <a href="#0"
+            ><i class="fab fa-facebook-f" aria-hidden="true"></i
+            ><span>Facebook</span></a
+          >
+        </li>
+        <li>
+          <a href="#0"
+            ><i class="fab fa-twitter" aria-hidden="true"></i
+            ><span>Twiiter</span></a
+          >
+        </li>
+        <li>
+          <a href="#0"
+            ><i class="fab fa-instagram" aria-hidden="true"></i
+            ><span>Instagram</span></a
+          >
+        </li>
+        <li>
+          <a href="#0"
+            ><i class="fab fa-behance" aria-hidden="true"></i
+            ><span>Behance</span></a
+          >
+        </li>
+        <li>
+          <a href="#0"
+            ><i class="fab fa-dribbble" aria-hidden="true"></i
+            ><span>Dribbble</span></a
+          >
+        </li>
+      </ul>
+      <!-- end home-social -->
+    </section>
+    -->
+    <!-- end s-home -->
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+      <div class="row section-header bit-narrow" data-aos="fade-up">
+        <div class="col-full">
+          <h3 class="subhead">
+            Why is data driven recommendation system required?
+          </h3>
+          <h3>
+            This analytical tool expands its value by discovering patterns and
+            trends in consumer preferences and views, providing as a significant
+            resource to optimize goods, services, and the entire customer
+            experience. The usage of behavior analysis not only enhances client
+            involvement and happiness but also functions as a catalyst for
+            higher sales.
+          </h3>
+        </div>
+      </div>
+      <!-- end section-header -->
+
+      <div class="row bit-narrow" data-aos="fade-up">
+        <div class="col-full">
+          <p class="lead">
+            Behavior analysis is the master putting together a symphony of
+            insights, changing the retail environment into a fascinating show
+            where data and instincts synchronize. It's not just about
+            understanding it's about speaking the language of customers clearly,
+            creating an engaging experience. In this innovative retail
+            revolution, behavior analysis is the proficient, guiding retailers
+            toward an upward trend of success in an ever-evolving market.
+          </p>
+        </div>
+      </div>
+      <!-- end about-desc -->
+
+      <div class="row bit-narrow">
+        <div class="about-process process block-1-2 block-tab-full">
+          <div class="col-block item-process" data-aos="fade-up">
+            <div class="item-process__text">
+              <h4 class="item-title">Define</h4>
+              <p>
+                The primary aim is to create a robust application that
+                integrates machine learning models, Jupyter Notebook
+                visualizations, and Tableau dashboards to provide personalized
+                product recommendations to users. This involves understanding
+                the target audience, identifying key functionalities, and
+                setting measurable goals for the system's performance. Detailed
+                requirements gathering includes specifying the types of data to
+                be used, the machine learning algorithms for recommendation, and
+                the visualization tools to present insights effectively.
+              </p>
+            </div>
+          </div>
+          <div class="col-block item-process" data-aos="fade-up">
+            <div class="item-process__text">
+              <h4 class="item-title">Design</h4>
+              <p>
+                The design also involves planning the integration of Jupyter
+                Notebook visualizations and Tableau dashboards, ensuring they
+                seamlessly fit into the web application. Wireframes and
+                prototypes are created to visualize the user interface, while
+                the database schema is designed to efficiently store and
+                retrieve user and product data. A well-thought-out design lays
+                the foundation for a scalable and maintainable application.
+              </p>
+            </div>
+          </div>
+          <div class="col-block item-process" data-aos="fade-up">
+            <div class="item-process__text">
+              <h4 class="item-title">Build</h4>
+              <p>
+                The frontend is developed to create a user-friendly interface,
+                using React,HTML, CSS, and JavaScript to ensure responsiveness
+                and interactivity. Jupyter Notebook visualizations are converted
+                into static images or interactive plots and embedded into the
+                web pages, while Tableau dashboards are integrated using iframe
+                embeds. The code is rigorously tested to identify and fix any
+                bugs or issues.
+              </p>
+            </div>
+          </div>
+          <div class="col-block item-process" data-aos="fade-up">
+            <div class="item-process__text">
+              <h4 class="item-title">Launch</h4>
+              <p>
+                The application is deployed, and final checks are performed to
+                ensure all components function correctly. User feedback
+                mechanisms are put in place to gather insights for future
+                improvements. The successful launch of the application marks the
+                culmination of the project, providing users with a powerful tool
+                for personalized product recommendations and valuable insights
+                through integrated visualizations.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end process -->
+      </div>
+      <!-- end row -->
+    </section>
+    <!-- end s-about -->
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services target-section darker">
+      <div class="row section-header bit-narrow" data-aos="fade-up">
+        <div class="col-full">
+          <h3 class="subhead">How is it performed?</h3>
+          <h3>
+            Data is loaded, cleaned, and processed. The model is built using
+            Reviews Dataframe. Popularity-based, collaborative filtering,
+            content-based filtering, and a combination of collaborative and
+            content-based recommendation systems are implemented. Descriptive,
+            diagnostic, predictive, and prescriptive analytics are performed,
+            along with visualizations, to effectively communicate insights
+            derived from the data.
+          </h3>
+        </div>
+      </div>
+      <!-- end section-header -->
+
+      <div class="row bit-narrow">
+        <div class="col-full">
+          <iframe
+            src="FinalProductRecommendation.html"
+            style="width: 100%; height: 1000px; border: none"
+          ></iframe>
+        </div>
+      </div>
+      <!-- end services -->
+    </section>
+    <!-- end s-services -->
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+      <div
+        class="row section-header has-bottom-sep narrow target-section"
+        data-aos="fade-up"
+      >
+        <div class="col-full">
+          <h3 class="subhead">Project Summarization</h3>
+          <h1 class="display-1">
+            Over View of Data driven analytical project to perform behavior
+            analysis in order to increase sales in retail stores using
+            recommendation dashboard.
+          </h1>
+        </div>
+      </div>
+      <!-- end section-header -->
+
+      <div class="row masonry-wrap">
+        <div class="masonry">
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+              <div class="item-folio__thumb">
+                <a
+                  href="images/portfolio/gallery/sales1.jpg"
+                  class="thumb-link"
+                  title=""
+                  data-size="1050x700"
+                >
+                  <img
+                    src="images/portfolio/sales1.jpg"
+                    srcset="
+                      images/portfolio/sales1.jpg    1x,
+                      images/portfolio/sales1@2x.jpg 2x
+                    "
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="item-folio__text">
+                <h3 class="item-folio__title"></h3>
+                <p class="item-folio__cat"></p>
+              </div>
+
+              <a
+                href="https://www.behance.net/"
+                class="item-folio__project-link"
+                title="Project link"
+              >
+                <i class="icon-link"></i>
+              </a>
+
+              <div class="item-folio__caption">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <!-- end masonry__brick -->
+
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+              <div class="item-folio__thumb">
+                <a
+                  href="images/portfolio/gallery/sales2.jpg"
+                  class="thumb-link"
+                  title="Woodcraft"
+                  data-size="1050x700"
+                >
+                  <img
+                    src="images/portfolio/sales2.jpg"
+                    srcset="
+                      images/portfolio/sales2.jpg    1x,
+                      images/portfolio/sales2@2x.jpg 2x
+                    "
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="item-folio__text">
+                <h3 class="item-folio__title"></h3>
+                <p class="item-folio__cat"></p>
+              </div>
+
+              <a
+                href="https://www.behance.net/"
+                class="item-folio__project-link"
+                title="Project link"
+              >
+                <i class="icon-link"></i>
+              </a>
+
+              <div class="item-folio__caption">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <!-- end masonry__brick -->
+
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+              <div class="item-folio__thumb">
+                <a
+                  href="images/portfolio/gallery/sales4.jpg"
+                  class="thumb-link"
+                  title="The Beetle Car"
+                  data-size="1050x700"
+                >
+                  <img
+                    src="images/portfolio/sales4.jpg"
+                    srcset="
+                      images/portfolio/sales4.jpg    1x,
+                      images/portfolio/sales4@2x.jpg 2x
+                    "
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="item-folio__text">
+                <h3 class="item-folio__title"></h3>
+                <p class="item-folio__cat"></p>
+              </div>
+
+              <a
+                href="https://www.behance.net/"
+                class="item-folio__project-link"
+                title="Project link"
+              >
+                <i class="icon-link"></i>
+              </a>
+
+              <div class="item-folio__caption">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <!-- end masonry__brick -->
+
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+              <div class="item-folio__thumb">
+                <a
+                  href="images/portfolio/gallery/sales3.jpg"
+                  class="thumb-link"
+                  title="Grow Green"
+                  data-size="1050x700"
+                >
+                  <img
+                    src="images/portfolio/sales3.jpg"
+                    srcset="
+                      images/portfolio/sales3.jpg    1x,
+                      images/portfolio/sales3@2x.jpg 2x
+                    "
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="item-folio__text">
+                <h3 class="item-folio__title"></h3>
+                <p class="item-folio__cat"></p>
+              </div>
+
+              <a
+                href="https://www.behance.net/"
+                class="item-folio__project-link"
+                title="Project link"
+              >
+                <i class="icon-link"></i>
+              </a>
+
+              <div class="item-folio__caption">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <!-- end masonry__brick -->
+
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+              <div class="item-folio__thumb">
+                <a
+                  href="images/portfolio/gallery/sales5.jpg"
+                  class="thumb-link"
+                  title="Guitarist"
+                  data-size="1050x700"
+                >
+                  <img
+                    src="images/portfolio/sales5.jpg"
+                    srcset="
+                      images/portfolio/sales5.jpg    1x,
+                      images/portfolio/sales5@2x.jpg 2x
+                    "
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="item-folio__text">
+                <h3 class="item-folio__title"></h3>
+                <p class="item-folio__cat"></p>
+              </div>
+
+              <a
+                href="https://www.behance.net/"
+                class="item-folio__project-link"
+                title="Project link"
+              >
+                <i class="icon-link"></i>
+              </a>
+
+              <div class="item-folio__caption">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <!-- end masonry__brick -->
+
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+              <div class="item-folio__thumb">
+                <a
+                  href="images/portfolio/gallery/sales6.jpg"
+                  class="thumb-link"
+                  title="Palmeira"
+                  data-size="1050x700"
+                >
+                  <img
+                    src="images/portfolio/sales6.jpg"
+                    srcset="
+                      images/portfolio/sales6.jpg    1x,
+                      images/portfolio/sales6@2x.jpg 2x
+                    "
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="item-folio__text">
+                <h3 class="item-folio__title"></h3>
+                <p class="item-folio__cat"></p>
+              </div>
+
+              <a
+                href="https://www.behance.net/"
+                class="item-folio__project-link"
+                title="Project link"
+              >
+                <i class="icon-link"></i>
+              </a>
+
+              <div class="item-folio__caption">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <!-- end masonry__brick -->
+        </div>
+        <!-- end masonry -->
+      </div>
+      <!-- end masonry-wrap -->
+    </section>
+    <!-- end s-works -->
+
+    <div
+      class="tableauPlaceholder"
+      id="viz1720350099720"
+      style="
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 827px;
+        margin: 0 auto;
+      "
+    >
+      <noscript
+        ><a href="#"
+          ><img
+            alt="SUPERSTORE DASHBOARDKPI Analysis | 2023 vs -1 Year(s) "
+            src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;29&#47;29TTSW5CP&#47;1_rss.png"
+            style="border: none" /></a></noscript
+      ><object
+        class="tableauViz"
+        style="display: block; width: 1200px; height: 827px; margin: 0 auto"
+      >
+        <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+        <param name="embed_code_version" value="3" />
+        <param name="path" value="shared&#47;29TTSW5CP" />
+        <param name="toolbar" value="yes" />
+        <param
+          name="static_image"
+          value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;29&#47;29TTSW5CP&#47;1.png"
+        />
+        <param name="animate_transition" value="yes" />
+        <param name="display_static_image" value="yes" />
+        <param name="display_spinner" value="yes" />
+        <param name="display_overlay" value="yes" />
+        <param name="display_count" value="yes" />
+        <param name="language" value="en-US" />
+        <param name="filter" value="publish=yes" />
+      </object>
+    </div>
+    <script type="text/javascript">
+      var divElement = document.getElementById("viz1720350099720");
+      var vizElement = divElement.getElementsByTagName("object")[0];
+      vizElement.style.width = "1200px";
+      vizElement.style.height = "827px";
+      var scriptElement = document.createElement("script");
+      scriptElement.src =
+        "https://public.tableau.com/javascripts/api/viz_v1.js";
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+    <!-- testimonies
+    ================================================== -->
+    <section class="s-testimonials">
+      <div class="testimonials__icon" data-aos="fade-up"></div>
+
+      <div class="row testimonials narrow">
+        <div class="col-full testimonials__slider" data-aos="fade-up">
+          <div class="testimonials__slide">
+            <p>"Data is the new oil"</p>
+            <div class="testimonials__author">
+              Clive Humby
+              <span></span>
+            </div>
+          </div>
+          <!-- end testimonials__slide -->
+
+          <div class="testimonials__slide">
+            <p>“Torture the data, and it will confess to anything.”</p>
+            <div class="testimonials__author">
+              Ronald Coase
+              <span></span>
+            </div>
+          </div>
+          <!-- end testimonials__slide -->
+
+          <div class="testimonials__slide">
+            <p>"Without data, you're just another person with an opinion."</p>
+            <div class="testimonials__author">
+              W. Edwards Deming
+              <span></span>
+            </div>
+          </div>
+          <!-- end testimonials__slide -->
+        </div>
+        <!-- end testimonials__slider -->
+      </div>
+      <!-- end testimonials -->
+    </section>
+    <!-- end s-testimonials -->
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button
+              class="pswp__button pswp__button--close"
+              title="Close (Esc)"
+            ></button>
+            <button
+              class="pswp__button pswp__button--share"
+              title="Share"
+            ></button>
+            <button
+              class="pswp__button pswp__button--fs"
+              title="Toggle fullscreen"
+            ></button>
+            <button
+              class="pswp__button pswp__button--zoom"
+              title="Zoom in/out"
+            ></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"
+          >
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button
+            class="pswp__button pswp__button--arrow--left"
+            title="Previous (arrow left)"
+          ></button>
+          <button
+            class="pswp__button pswp__button--arrow--right"
+            title="Next (arrow right)"
+          ></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end photoSwipe background -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
